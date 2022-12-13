@@ -22,3 +22,45 @@ Speaking of complication, I may have written the `blog.html` file. But I don't h
 
 Tue 13 Dec 01:33:57 +08 2022
 An alternative to installing `live-server` is to use `python3 -m http.server`. I'm not sure if `live-server` offers more features but this alternative method wouldn't require any installation, I think. The article [How do you set up a local testing server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server) has more details.  
+
+
+Tue 13 Dec 01:47:10 +08 2022
+As someone who's not a stranger to HTMl, I'm quite surprised to learn of [The Description List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl). It's used to enclose a list of groups of terms and descriptions.
+
+```html
+<dl>
+    <dt>Term</dt>
+    <dd>Description</dd>
+
+    <dt>Another term</dt>
+    <dd>Description</dd>
+</dl>
+```
+
+
+
+
+Tue 13 Dec 20:18:57 +08 2022
+Some vim tips; 
+
+`o`/`O` adds new line and switch to insert mode, below/above the current line.
+
+`w` moves the cursor to the the start of the next word.
+`W` moves the cursor to the start of the next WORD.
+`e` moves the cursor forward to the end of a word.
+`E` moves the cursot forward to the end of a WORD.
+`b` moves the cursor to the start of the previous word.
+
+`{`/`}` move the cursor to the previous/next paragraph
+
+`f<character>` moves the cursor to the next occurence of <character>
+    eg. `f{` moves the cursor to the next occurence of `{`.
+
+
+`zz` center the cursor on the screen
+
+
+`cw` change (replace) to the end of the word
+`ciw`/`ciW` change entire word/WORD
+`cit` change all the content in a HTML tag. **USEFUL FOR EDITING HTML TAGS**
+
